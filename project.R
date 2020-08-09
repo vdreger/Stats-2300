@@ -115,13 +115,7 @@ independentSamplesTTest(
 
 ## The population means are significantly different between the two variables, so you would reject the null hypothesis. 
 
-con1 <- summary(df[df$condition == 1,3])
-
-con1
-
-con2 <- summary(df[df$condition == 2,3])
-
-con2
+# Boxplot
 
 boxplot(c(x = con1, y = con2))
 
